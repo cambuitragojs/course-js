@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Descuentos</h1>
+  <p>Segundo taller</p>
+  <section>
+    <h2>Calcular el precio</h2>
+    <form action="">
+      <label for="InputPrice">Escribe el precio de tu producto:</label>
+      <input id="InputPrice" type="number"><br><br>
+      <label for="InputDiscount">Escribe decuento de tu producto:</label>
+      <input id="InputDiscount" type="number"><br><br>
+      <button type="button" onclick="btnPrice()">Calcular precio</button><br><br>
+      <p id="textPrice"></p>
+    </form>
+  </section>
+
+  <section>
+    <h2>Calculo con cupón #1: arrays y switch</h2>
+    <form action="">
+      <label for="InputPriceCupon1">Escribe el precio de tu producto:</label>
+      <input id="InputPriceCupon1" type="number"><br><br>
+      <label for="InputCupon1">Escribe el cupón de descuento para tu producto:</label>
+      <input id="InputCupon1" type="text"><br><br>
+      <button type="button" onclick="btnPriceCupon1()">Calcular precio</button><br><br>
+      <p id="textPriceCupon1"></p>
+    </form>
+  </section>
+
+  <section>
+    <h2>Calculo con cupón #2: legibilidad, error first y muerte al switch</h2>
+    <form action="">
+      <label for="InputPriceCupon2">Escribe el precio de tu producto:</label>
+      <input id="InputPriceCupon2" type="number"><br><br>
+      <label for="InputCupon2">Escribe el cupón de descuento para tu producto:</label>
+      <input id="InputCupon2" type="text"><br><br>
+      <button type="button" onclick="btnPriceCupon2()">Calcular precio</button><br><br>
+      <p id="textPriceCupon2"></p>
+    </form>
+  </section>
+
+  <section>
+    <h2>Solución #3: arrays y condicionales mucho más inteligentes</h2>
+    <form action="">
+      <label for="InputPriceCupon3">Escribe el precio de tu producto:</label>
+      <input id="InputPriceCupon3" type="number"><br><br>
+      <label for="InputCupon3">Escribe el cupón de descuento para tu producto:</label>
+      <input id="InputCupon3" type="text"><br><br>
+      <button type="button" onclick="btnPriceCupon3()">Calcular precio</button><br><br>
+      <p id="textPriceCupon3"></p>
+    </form>
+  </section>
+
+  <script src="./descuentos.js"></script>
+</body>
+</html>

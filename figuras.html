@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIguras Geométricas</title>
+</head>
+<body>
+  <header>
+    <h1 class="">Figuras Geométricas</h1>
+  </header>
+  <p>taller práctico</p>
+  <section>
+    <h2>Calcula el área y perimetro de un cuadra</h2>
+    <form action="form">
+        <label for="">Cada lado del cuandrado</label>
+        <input id="InputCuadrado" type="number"><br>
+        <button type="button" onclick="calcPerimetroCuadrado()">perímetro</button>
+        <button type="button" onclick="calcAreaCuadrado()">área</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Calcula el área y perimetro de un triángulo</h2>
+    <form action="form">
+      <label for="">Lado 1</label>
+      <input id="InputTriangulo1" type="number"><br>
+      <label for="">Lado 2</label>
+      <input id="InputTriangulo2" type="number"><br>
+      <label for="">Base</label>
+      <input id="InputTriangulo3" type="number"><br>
+      <label for="">Altura</label>
+      <input id="InputTriangulo4" type="number"><br>
+      <button type="button" onclick="calcPerimetroTriangulo()">perímetro</button>
+      <button type="button" onclick="calcAreaTriangulo()">área</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Calcula el área y perimetro de un circulo</h2>
+    <form action="InputCirculo">
+      <label for="">Radio</label>
+      <input id="InputCirculo" type="number">
+      <button type="button" onclick="calcPerimetroCirculo()">perímetro</button>
+      <button type="button" onclick="calcAreaCirculo()">área</button>
+    </form>
+  </section>
+
+    <section>
+      <h2>Calcula altura del triángulo isósceles</h2>
+      <form action="form">
+        <label for="">Lado 1</label>
+        <input id="IsoUno" type="number"><br>
+        <label for="">Lado 2</label>
+        <input id="IsoDos" type="number"><br>
+        <label for="">Base</label>
+        <input id="IsoTres" type="number"><br>
+        <button type="button" onclick="calcAlturaIso()">Altura</button>
+      </form>
+    </section>
+
+  <script src="./figuras.js"></script>
+</body>
+</html>
